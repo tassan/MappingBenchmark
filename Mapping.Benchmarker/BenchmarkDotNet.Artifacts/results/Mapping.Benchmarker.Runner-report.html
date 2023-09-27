@@ -2,7 +2,7 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8' />
-<title>Mapping.Benchmarker.Runner-20230927-084126</title>
+<title>Mapping.Benchmarker.Runner-20230927-092742</title>
 
 <style type="text/css">
 	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
@@ -22,14 +22,14 @@ Intel Core i5-8265U CPU 1.60GHz (Whiskey Lake), 1 CPU, 8 logical and 4 physical 
 <pre><code></code></pre>
 
 <table>
-<thead><tr><th>Method         </th><th>MaxProducts</th><th>Mean</th><th>Error</th><th>StdDev</th>
+<thead><tr><th>Method         </th><th>MaxProducts</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Ratio</th><th>RatioSD</th><th>Gen0</th><th>Gen1</th><th>Gen2</th><th>Allocated</th><th>Alloc Ratio</th>
 </tr>
-</thead><tbody><tr><td>RunTranslatorStrategy</td><td>10000</td><td>5.426 ms</td><td>0.0647 ms</td><td>0.0606 ms</td>
-</tr><tr><td>RunAutoMapperStrategy</td><td>10000</td><td>5.722 ms</td><td>0.0637 ms</td><td>0.0596 ms</td>
-</tr><tr><td>RunTranslatorStrategy</td><td>100000</td><td>62.027 ms</td><td>0.8415 ms</td><td>0.7871 ms</td>
-</tr><tr><td>RunAutoMapperStrategy</td><td>100000</td><td>65.941 ms</td><td>1.3010 ms</td><td>2.1376 ms</td>
-</tr><tr><td>RunTranslatorStrategy</td><td>1000000</td><td>690.400 ms</td><td>8.9536 ms</td><td>8.3752 ms</td>
-</tr><tr><td>RunAutoMapperStrategy</td><td>1000000</td><td>699.385 ms</td><td>11.8753 ms</td><td>10.5271 ms</td>
+</thead><tbody><tr><td>RunTranslatorStrategy</td><td>10000</td><td>5.511 ms</td><td>0.0922 ms</td><td>0.0770 ms</td><td>1.00</td><td>0.00</td><td>242.1875</td><td>109.3750</td><td>54.6875</td><td>1.47 MB</td><td>1.00</td>
+</tr><tr><td>RunAutoMapperStrategy</td><td>10000</td><td>6.149 ms</td><td>0.1105 ms</td><td>0.0922 ms</td><td>1.12</td><td>0.01</td><td>250.0000</td><td>171.8750</td><td>85.9375</td><td>1.72 MB</td><td>1.17</td>
+</tr><tr><td>RunTranslatorStrategy</td><td>100000</td><td>66.718 ms</td><td>1.3142 ms</td><td>1.7544 ms</td><td>1.00</td><td>0.00</td><td>2500.0000</td><td>1750.0000</td><td>750.0000</td><td>14.21 MB</td><td>1.00</td>
+</tr><tr><td>RunAutoMapperStrategy</td><td>100000</td><td>69.362 ms</td><td>1.2887 ms</td><td>1.7640 ms</td><td>1.04</td><td>0.04</td><td>2571.4286</td><td>2142.8571</td><td>1142.8571</td><td>16.21 MB</td><td>1.14</td>
+</tr><tr><td>RunTranslatorStrategy</td><td>1000000</td><td>710.905 ms</td><td>9.1901 ms</td><td>10.5833 ms</td><td>1.00</td><td>0.00</td><td>21000.0000</td><td>11000.0000</td><td>3000.0000</td><td>138.07 MB</td><td>1.00</td>
+</tr><tr><td>RunAutoMapperStrategy</td><td>1000000</td><td>714.226 ms</td><td>10.0447 ms</td><td>9.3958 ms</td><td>1.00</td><td>0.02</td><td>21000.0000</td><td>11000.0000</td><td>3000.0000</td><td>154.08 MB</td><td>1.12</td>
 </tr></tbody></table>
 </body>
 </html>

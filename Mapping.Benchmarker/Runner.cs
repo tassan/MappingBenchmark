@@ -8,6 +8,7 @@ using Mapping.Translators;
 
 namespace Mapping.Benchmarker;
 
+[MemoryDiagnoser]
 public class Runner
 {
     private IRestService<ProductStock, StockRequest> _restService = null!;
@@ -36,7 +37,7 @@ public class Runner
         _mapper = configuration.CreateMapper();
     }
 
-    [Benchmark]
+    [Benchmark(Baseline = true)]
     public async Task<List<Product>> RunTranslatorStrategy()
     {
         var translatorStrategy = new TranslatorStrategy(_restService, new ProductTranslator());
