@@ -1,0 +1,19 @@
+// Validating benchmarks:
+// Benchmark Runner.RunTranslatorStrategy: DefaultJob [MaxProducts=1000]
+//    * Benchmark Runner.RunTranslatorStrategy returns a deferred execution result (Task<IEnumerable<Product>>). You need to either change the method declaration to return a materialized result or consume it on your own. You can use .Consume() extension method to do that.
+
+// Benchmark Runner.RunAutoMapperStrategy: DefaultJob [MaxProducts=1000]
+//    * Benchmark Runner.RunAutoMapperStrategy returns a deferred execution result (Task<IEnumerable<Product>>). You need to either change the method declaration to return a materialized result or consume it on your own. You can use .Consume() extension method to do that.
+
+// Benchmark Runner.RunTranslatorStrategy: DefaultJob [MaxProducts=10000]
+//    * Benchmark Runner.RunTranslatorStrategy returns a deferred execution result (Task<IEnumerable<Product>>). You need to either change the method declaration to return a materialized result or consume it on your own. You can use .Consume() extension method to do that.
+
+// Benchmark Runner.RunAutoMapperStrategy: DefaultJob [MaxProducts=10000]
+//    * Benchmark Runner.RunAutoMapperStrategy returns a deferred execution result (Task<IEnumerable<Product>>). You need to either change the method declaration to return a materialized result or consume it on your own. You can use .Consume() extension method to do that.
+
+// Benchmark Runner.RunTranslatorStrategy: DefaultJob [MaxProducts=100000]
+//    * Benchmark Runner.RunTranslatorStrategy returns a deferred execution result (Task<IEnumerable<Product>>). You need to either change the method declaration to return a materialized result or consume it on your own. You can use .Consume() extension method to do that.
+
+// Benchmark Runner.RunAutoMapperStrategy: DefaultJob [MaxProducts=100000]
+//    * Benchmark Runner.RunAutoMapperStrategy returns a deferred execution result (Task<IEnumerable<Product>>). You need to either change the method declaration to return a materialized result or consume it on your own. You can use .Consume() extension method to do that.
+
